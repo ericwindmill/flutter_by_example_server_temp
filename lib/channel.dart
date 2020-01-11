@@ -1,4 +1,6 @@
-import 'flutter_by_example_server.dart';
+import 'package:aqueduct/aqueduct.dart';
+import 'package:flutter_by_example_server/controller/content_controller.dart';
+import 'package:flutter_by_example_server/controller/table_of_contents_controller.dart';
 
 /// This type initializes an application.
 ///
@@ -26,13 +28,13 @@ class FlutterByExampleServerChannel extends ApplicationChannel {
   Controller get entryPoint {
     final router = Router();
 
-    // Prefer to use `link` instead of `linkFunction`.
-    // See: https://aqueduct.io/docs/http/request_controller/
-    router
-      .route("/example")
-      .linkFunction((request) async {
-        return Response.ok({"key": "value"});
-      });
+    router.route('/posts/*').link(() => ContentController());
+
+    router.route('/').link(() => TableOfContentsController());
+
+    router.route("/example").linkFunction((request) async {
+      return Response.ok({"key": "value"});
+    });
 
     return router;
   }

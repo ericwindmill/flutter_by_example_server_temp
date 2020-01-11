@@ -38,10 +38,28 @@
       "languageVersion": "2.0"
     },
     {
+      "name": "build",
+      "rootUri": "file:///Users/ericwindmill/.pub-cache/hosted/pub.dartlang.org/build-1.2.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.3"
+    },
+    {
+      "name": "build_config",
+      "rootUri": "file:///Users/ericwindmill/.pub-cache/hosted/pub.dartlang.org/build_config-0.4.1+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.3"
+    },
+    {
       "name": "charcode",
       "rootUri": "file:///Users/ericwindmill/.pub-cache/hosted/pub.dartlang.org/charcode-1.1.2",
       "packageUri": "lib/",
       "languageVersion": "1.0"
+    },
+    {
+      "name": "checked_yaml",
+      "rootUri": "file:///Users/ericwindmill/.pub-cache/hosted/pub.dartlang.org/checked_yaml-1.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.3"
     },
     {
       "name": "codable",
@@ -66,6 +84,12 @@
       "rootUri": "file:///Users/ericwindmill/.pub-cache/hosted/pub.dartlang.org/crypto-2.1.4",
       "packageUri": "lib/",
       "languageVersion": "2.1"
+    },
+    {
+      "name": "dart_style",
+      "rootUri": "file:///Users/ericwindmill/.pub-cache/hosted/pub.dartlang.org/dart_style-1.2.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
     },
     {
       "name": "front_end",
@@ -116,10 +140,22 @@
       "languageVersion": "1.19"
     },
     {
+      "name": "json_annotation",
+      "rootUri": "file:///Users/ericwindmill/.pub-cache/hosted/pub.dartlang.org/json_annotation-2.4.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.2"
+    },
+    {
       "name": "json_rpc_2",
       "rootUri": "file:///Users/ericwindmill/.pub-cache/hosted/pub.dartlang.org/json_rpc_2-2.1.0",
       "packageUri": "lib/",
       "languageVersion": "2.0"
+    },
+    {
+      "name": "json_serializable",
+      "rootUri": "file:///Users/ericwindmill/.pub-cache/hosted/pub.dartlang.org/json_serializable-3.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.2"
     },
     {
       "name": "kernel",
@@ -236,6 +272,12 @@
       "languageVersion": "1.0"
     },
     {
+      "name": "pubspec_parse",
+      "rootUri": "file:///Users/ericwindmill/.pub-cache/hosted/pub.dartlang.org/pubspec_parse-0.1.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.2"
+    },
+    {
       "name": "safe_config",
       "rootUri": "file:///Users/ericwindmill/.pub-cache/hosted/pub.dartlang.org/safe_config-2.0.2",
       "packageUri": "lib/",
@@ -264,6 +306,12 @@
       "rootUri": "file:///Users/ericwindmill/.pub-cache/hosted/pub.dartlang.org/shelf_web_socket-0.2.3",
       "packageUri": "lib/",
       "languageVersion": "2.0"
+    },
+    {
+      "name": "source_gen",
+      "rootUri": "file:///Users/ericwindmill/.pub-cache/hosted/pub.dartlang.org/source_gen-0.9.4+4",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
     },
     {
       "name": "source_map_stack_trace",
@@ -359,10 +407,10 @@
       "name": "flutter_by_example_server",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "2.0"
+      "languageVersion": "2.7"
     }
   ],
-  "generated": "2020-01-11T01:06:01.800227Z",
+  "generated": "2020-01-11T01:28:30.079142Z",
   "generator": "pub",
   "generatorVersion": "2.7.0"
 }
